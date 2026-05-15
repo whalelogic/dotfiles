@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="howtogo.dev" id="93d084f3-973f-4fb5-a8c3-d57659a4074b" keyPath="$USER_HOME$/digitalocean/sshKey-do.pub" port="22" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</application>

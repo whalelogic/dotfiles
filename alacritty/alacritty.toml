@@ -1,0 +1,194 @@
+# ~/.config/alacritty/alacritty.toml
+
+# --------------------------------------------------
+# WINDOW
+# --------------------------------------------------
+
+[window]
+padding = { x = 14, y = 14 }
+dynamic_padding = true
+decorations = "None"
+opacity = 0.94
+blur = true
+startup_mode = "Windowed"
+dynamic_title = true
+option_as_alt = "Both"
+
+[window.dimensions]
+columns = 120
+lines = 34
+
+# --------------------------------------------------
+# SCROLLING
+# --------------------------------------------------
+
+[scrolling]
+history = 20000
+multiplier = 3
+
+# --------------------------------------------------
+# FONT
+# --------------------------------------------------
+
+[font]
+size = 13.5
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[font.offset]
+x = 0
+y = 1
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+# --------------------------------------------------
+# CURSOR
+# --------------------------------------------------
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+blink_interval = 500
+unfocused_hollow = true
+thickness = 0.18
+
+# --------------------------------------------------
+# SELECTION
+# --------------------------------------------------
+
+[selection]
+save_to_clipboard = true
+
+# --------------------------------------------------
+# MOUSE
+# --------------------------------------------------
+
+[mouse]
+hide_when_typing = true
+
+# --------------------------------------------------
+# BELL
+# --------------------------------------------------
+
+[bell]
+animation = "EaseOutExpo"
+duration = 0
+color = "#ffffff"
+
+# --------------------------------------------------
+# TOKYO NIGHT COLORSCHEME
+# --------------------------------------------------
+
+[colors.primary]
+background = "#11121D"
+foreground = "#C0CAF5"
+
+[colors.cursor]
+text = "#11121D"
+cursor = "#7AA2F7"
+
+[colors.vi_mode_cursor]
+text = "#11121D"
+cursor = "#BB9AF7"
+
+[colors.search.matches]
+foreground = "#1A1B26"
+background = "#E0AF68"
+
+[colors.search.focused_match]
+foreground = "#1A1B26"
+background = "#73DACA"
+
+[colors.footer_bar]
+foreground = "#C0CAF5"
+background = "#1F2335"
+
+[colors.hints.start]
+foreground = "#1A1B26"
+background = "#E0AF68"
+
+[colors.hints.end]
+foreground = "#A9B1D6"
+background = "#1F2335"
+
+[colors.selection]
+text = "CellForeground"
+background = "#283457"
+
+# --------------------------------------------------
+# NORMAL COLORS
+# --------------------------------------------------
+
+[colors.normal]
+black   = "#15161E"
+red     = "#F7768E"
+green   = "#9ECE6A"
+yellow  = "#E0AF68"
+blue    = "#7AA2F7"
+magenta = "#BB9AF7"
+cyan    = "#7DCFFF"
+white   = "#A9B1D6"
+
+# --------------------------------------------------
+# BRIGHT COLORS
+# --------------------------------------------------
+
+[colors.bright]
+black   = "#414868"
+red     = "#F7768E"
+green   = "#9ECE6A"
+yellow  = "#E0AF68"
+blue    = "#7AA2F7"
+magenta = "#BB9AF7"
+cyan    = "#7DCFFF"
+white   = "#C0CAF5"
+
+# --------------------------------------------------
+# KEYBINDINGS
+# --------------------------------------------------
+
+[keyboard]
+
+bindings = [
+
+  # Copy / Paste
+  { key = "C", mods = "Control|Shift", action = "Copy" },
+  { key = "V", mods = "Control|Shift", action = "Paste" },
+
+  # Font sizing
+  { key = "Equals", mods = "Control", action = "IncreaseFontSize" },
+  { key = "Minus", mods = "Control", action = "DecreaseFontSize" },
+  { key = "Key0", mods = "Control", action = "ResetFontSize" },
+
+  # Vi mode
+  { key = "Space", mods = "Control|Shift", action = "ToggleViMode" }
+]
+
+# --------------------------------------------------
+# TERMINAL
+# --------------------------------------------------
+
+[terminal.shell]
+program = "/bin/zsh"
+
+# --------------------------------------------------
+# ENV
+# --------------------------------------------------
+
+[env]
+TERM = "xterm-256color"

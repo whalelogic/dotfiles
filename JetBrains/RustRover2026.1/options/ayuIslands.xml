@@ -1,0 +1,27 @@
+<application>
+  <component name="AyuIslandsSettings">
+    <option name="fontPresetCustomizations">
+      <map>
+        <entry key="AMBIENT" value="13.0|1.3|true|REGULAR" />
+        <entry key="CUSTOM" value="13.0|1.2|true|REGULAR|JetBrains Mono" />
+        <entry key="CYBERPUNK" value="13.0|1.2|true|MEDIUM" />
+        <entry key="NEON" value="13.0|1.2|true|REGULAR" />
+        <entry key="WHISPER" value="14.0|1.4|true|LIGHT" />
+      </map>
+    </option>
+    <option name="freeOnboardingShown" value="true" />
+    <option name="installedFonts">
+      <set>
+        <option value="Monaspace Neon" />
+        <option value="Monaspace Xenon" />
+        <option value="Victor Mono" />
+      </set>
+    </option>
+    <option name="installedFontsSeeded" value="true" />
+    <option name="lastAppliedAccentHex" value="#FFCC66" />
+    <option name="lastApplyOk" value="true" />
+    <option name="lastSeenVersion" value="2.6.1" />
+    <option name="lastWhatsNewShownVersion" value="2.6.0" />
+    <option name="trialExpiredNotified" value="true" />
+  </component>
+</application>

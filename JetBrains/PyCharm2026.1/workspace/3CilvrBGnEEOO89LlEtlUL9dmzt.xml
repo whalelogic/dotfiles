@@ -1,0 +1,238 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="gem-recipe" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="3lgf45lc7dq1r" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/README.md" file-id="4837" managing-fs="1776870774211">
+          <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]" selected="true">
+            <state split_layout="SHOW_EDITOR_AND_PREVIEW" is_vertical_split="false">
+              <first_editor relative-caret-position="132">
+                <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"README.md","foregroundColor":-7607811,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"8be9fd"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-107,1,10,-110,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,119,104,97,108,101,114,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,80,121,67,104,97,114,109,50,48,50,54,46,49,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,114,101,97,100,109,101,46,115,118,103]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flask/app.py" file-id="4831" managing-fs="1776870774211">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="358">
+              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"app.py","foregroundColor":-7607811,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"8be9fd"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-107,1,10,-110,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,119,104,97,108,101,114,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,80,121,67,104,97,114,109,50,48,50,54,46,49,47,65,116,111,109,37,50,48,77,97,116,101,114,105,97,108,37,50,48,73,99,111,110,115,47,108,105,98,47,97,45,102,105,108,101,45,105,99,111,110,45,105,100,101,97,45,49,48,52,46,48,46,48,46,106,97,114,33,47,97,115,115,101,116,115,47,105,99,111,110,115,47,102,105,108,101,115,47,112,121,116,104,111,110,46,115,118,103]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "GitIgnore file": {
+      "usageCount": 1,
+      "lastUsed": 1776876511269
+    },
+    "Markdown": {
+      "usageCount": 5,
+      "lastUsed": 1777068902415
+    },
+    "Python": {
+      "usageCount": 3,
+      "lastUsed": 1777068900696
+    },
+    "Image": {
+      "usageCount": 1,
+      "lastUsed": 1776880944327
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">{
+  &quot;changedPaths&quot;: [
+    &quot;/home/whaler/github/gem-recipe/.gitignore&quot;,
+    &quot;/home/whaler/github/gem-recipe/README.md&quot;,
+    &quot;/home/whaler/github/gem-recipe/flask/app.py&quot;
+  ]
+}</component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="GitIgnore">
+      <summary usageCount="1" lastUsage="1776876511269" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="5" lastUsage="1777068902415" />
+    </language>
+    <language id="Python">
+      <summary usageCount="3" lastUsage="1777068900698" />
+    </language>
+  </component>
+  <component name="ProjectRoots">
+    <project-root url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="QueryFileSettings">
+    <option name="projectQueriesDirectory" value="$PROJECT_DIR$/.idea/queries" />
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Python.app" />
+    </history>
+  </component>
+  <component name="TerminalTabsStorage">
+    <option name="tabs">
+      <TerminalSessionPersistedTab name="Local" workingDirectory="$PROJECT_DIR$/flask" processType="SHELL">
+        <option name="shellCommand">
+          <option value="/usr/bin/zsh" />
+          <option value="-i" />
+        </option>
+        <option name="envVariables">
+          <map />
+        </option>
+      </TerminalSessionPersistedTab>
+    </option>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9585000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.50110745" visible="true" weight="0.15230054" />
+      <window_info id="Commit" order="1" weight="0.33035713" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Services" order="3" />
+      <window_info anchor="bottom" id="Python Packages" order="4" weight="0.1" />
+      <window_info anchor="bottom" id="Python Console" order="5" weight="0.1" />
+      <window_info anchor="bottom" id="GitHub Copilot MCP Log" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" show_stripe_button="false" sideWeight="0.4988926" weight="0.32939363" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49823636" visible="true" weight="0.35508734" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.27285963" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Plots" order="5" weight="0.1" />
+      <window_info anchor="right" content_ui="combo" id="StudioBot" order="6" sideWeight="0.5017637" visible="true" weight="0.24839836" />
+      <window_info anchor="right" id="GitHub Copilot Chat" order="7" weight="0.27285963" />
+      <window_info anchor="right" id="Google Cloud Databases" order="8" />
+      <window_info anchor="right" id="Compute Engine" order="9" />
+      <window_info anchor="right" id="Secret Manager" order="10" />
+      <window_info anchor="right" id="Kubernetes Explorer" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Cloud Run" order="12" />
+      <window_info anchor="right" id="Google Cloud Storage (GCS)" order="13" />
+      <window_info anchor="right" id="github.copilotToolWindow" order="14" />
+      <window_info anchor="right" id="GitHub Coding Agent Jobs" order="15" />
+      <window_info anchor="right" id="Jupyter Variables" order="16" side_tool="true" />
+      <window_info anchor="right" id="Json Studio" order="17" weight="0.21170646" />
+      <unified_weights bottom="0.35508734" left="0.15230054" right="0.24839836" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Terminal</value>
+      <value>Run</value>
+      <value>GitHub Copilot Chat</value>
+      <value>StudioBot</value>
+      <value>AIAssistant</value>
+      <value>Json Studio</value>
+      <value>Commit</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2378" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1777068918137">
+      <screen x="1920" y="84" width="1920" height="1080" />
+    </state>
+    <state x="2378" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.84.1920.1080/0.0.1920.1080@1920.84.1920.1080" timestamp="1777068918137" />
+    <state width="1635" height="273" key="GridCell.Tab.0.bottom" timestamp="1776998788856">
+      <screen x="1920" y="84" width="1920" height="1080" />
+    </state>
+    <state width="1635" height="273" key="GridCell.Tab.0.bottom/1920.84.1920.1080/0.0.1920.1080@1920.84.1920.1080" timestamp="1776998788856" />
+    <state width="1635" height="273" key="GridCell.Tab.0.center" timestamp="1776998788856">
+      <screen x="1920" y="84" width="1920" height="1080" />
+    </state>
+    <state width="1635" height="273" key="GridCell.Tab.0.center/1920.84.1920.1080/0.0.1920.1080@1920.84.1920.1080" timestamp="1776998788856" />
+    <state width="1635" height="273" key="GridCell.Tab.0.left" timestamp="1776998788856">
+      <screen x="1920" y="84" width="1920" height="1080" />
+    </state>
+    <state width="1635" height="273" key="GridCell.Tab.0.left/1920.84.1920.1080/0.0.1920.1080@1920.84.1920.1080" timestamp="1776998788856" />
+    <state width="1635" height="273" key="GridCell.Tab.0.right" timestamp="1776998788856">
+      <screen x="1920" y="84" width="1920" height="1080" />
+    </state>
+    <state width="1635" height="273" key="GridCell.Tab.0.right/1920.84.1920.1080/0.0.1920.1080@1920.84.1920.1080" timestamp="1776998788856" />
+    <state x="2348" y="202" key="SettingsEditor" timestamp="1776880904660">
+      <screen x="1920" y="84" width="1920" height="1080" />
+    </state>
+    <state x="2348" y="202" key="SettingsEditor/1920.84.1920.1080/0.0.1920.1080@1920.84.1920.1080" timestamp="1776880904660" />
+    <state width="300" height="239" key="StudioBot.RecentChatsPopup" timestamp="1776881496869">
+      <screen x="1920" y="84" width="1920" height="1080" />
+    </state>
+    <state width="300" height="239" key="StudioBot.RecentChatsPopup/1920.84.1920.1080/0.0.1920.1080@1920.84.1920.1080" timestamp="1776881496869" />
+    <state x="2358" y="286" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1776876761142">
+      <screen x="1920" y="84" width="1920" height="1080" />
+    </state>
+    <state x="2358" y="286" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.84.1920.1080/0.0.1920.1080@1920.84.1920.1080" timestamp="1776876761142" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gemini-recipe-response.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SHOW_EDITOR_AND_PREVIEW" is_vertical_split="false">
+          <first_editor relative-caret-position="132">
+            <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

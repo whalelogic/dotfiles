@@ -1,0 +1,15 @@
+<application>
+  <component name="DimensionService">
+    <location key="#com.android.tools.idea.streaming.emulator.dialogs.ManageSnapshotsDialog.1920.84.1920.1080" x="2339" y="322" />
+    <size key="#com.android.tools.idea.streaming.emulator.dialogs.ManageSnapshotsDialog.1920.84.1920.1080" width="813" height="635" />
+  </component>
+  <component name="WindowManager">
+    <frame x="2046" y="142" width="1400" height="998" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="2880" y="552" width="800" height="650" key="WELCOME_SCREEN" timestamp="1769269201566">
+      <screen x="1920" y="84" width="1920" height="1080" />
+    </state>
+    <state x="2880" y="552" width="800" height="650" key="WELCOME_SCREEN/1920.84.1920.1080/0.0.1920.1080" timestamp="1769269201566" />
+  </component>
+</application>

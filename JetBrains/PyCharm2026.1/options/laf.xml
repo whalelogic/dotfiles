@@ -1,0 +1,5 @@
+<application>
+  <component name="LafManager">
+    <laf themeId="com.ayuislands.theme.mirage.islands" />
+  </component>
+</application>

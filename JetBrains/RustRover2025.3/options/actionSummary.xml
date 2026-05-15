@@ -1,0 +1,82 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ActivateTerminalToolWindow">
+      <i c="1" l="1767976653699" />
+    </e>
+    <e n="CheckForUpdate">
+      <i c="1" l="1767976211116" />
+    </e>
+    <e n="CommentByBlockComment">
+      <i c="1" l="1767976503961" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="102" l="1767976815099" />
+    </e>
+    <e n="EditorEnter">
+      <i c="36" l="1767976734009" />
+    </e>
+    <e n="EditorJoinLines">
+      <i c="1" l="1767976690509" />
+    </e>
+    <e n="ExternalSystem.HideProjectRefreshAction">
+      <i c="1" l="1767976306460" />
+    </e>
+    <e n="HideActiveWindow">
+      <i c="2" l="1767976789896" />
+    </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="8" l="1767976707080" />
+    </e>
+    <e n="InsertLiveTemplate">
+      <i c="5" l="1767976663367" />
+    </e>
+    <e n="ReopenClosedTab">
+      <i c="1" l="1767976696932" />
+    </e>
+    <e n="RunClass">
+      <i c="9" l="1767976825943" />
+    </e>
+    <e n="SaveAll">
+      <i c="11" l="1767976832088" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1767976668235" />
+    </e>
+    <e n="ShowPopupMenu">
+      <i c="1" l="1767976778374" />
+    </e>
+    <e n="ShowSettings">
+      <i c="1" l="1767976669341" />
+    </e>
+    <e n="Stop">
+      <i c="1" l="1767976700688" />
+    </e>
+    <e n="com.intellij.codeInsight.hints.InlayProviderDisablingAction">
+      <i c="1" l="1767976413182" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="2" l="1767976228571" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="88" l="1767976815096" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1767976281573" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="4" l="1767976795783" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="2" l="1767976830884" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.ActionGroupPanelWrapper$3">
+      <i c="1" l="1767976230954" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="1" l="1767976207421" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$notifyAboutShortcutConflict$1">
+      <i c="1" l="1767976659586" />
+    </e>
+  </component>
+</application>

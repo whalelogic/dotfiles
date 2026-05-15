@@ -1,0 +1,15 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/PyCharmMiscProject" value="true" />
+        <entry key="$USER_HOME$/github/Python-Data-Structures" value="true" />
+        <entry key="$USER_HOME$/github/codepython" value="true" />
+        <entry key="$USER_HOME$/github/gem-recipe" value="true" />
+        <entry key="$USER_HOME$/github/gem-recipe/flask" value="true" />
+        <entry key="$USER_HOME$/github/pyproject" value="true" />
+        <entry key="$USER_HOME$/github/python-learn" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

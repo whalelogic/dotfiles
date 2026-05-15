@@ -1,0 +1,55 @@
+<application>
+  <component name="DailyLocalStatistics">
+    <dateToStats>
+      <entry key="2026-1-9-11">
+        <DateState>
+          <values>
+            <entry key="file_language">
+              <MetricValue>
+                <option name="count" value="427" />
+                <distribution>
+                  <entry key="Language: Rust" value="427" />
+                </distribution>
+              </MetricValue>
+            </entry>
+            <entry key="finish_type">
+              <MetricValue>
+                <option name="count" value="427" />
+                <distribution>
+                  <entry key="BACKSPACE_PRESSED" value="50" />
+                  <entry key="CARET_CHANGED" value="7" />
+                  <entry key="EMPTY" value="101" />
+                  <entry key="INVALIDATED" value="255" />
+                  <entry key="MOUSE_PRESSED" value="2" />
+                  <entry key="SELECTED" value="8" />
+                  <entry key="TYPED" value="4" />
+                </distribution>
+              </MetricValue>
+            </entry>
+            <entry key="total_inserted_length">
+              <MetricValue>
+                <option name="count" value="100" />
+                <option name="sum" value="228.0" />
+              </MetricValue>
+            </entry>
+            <entry key="total_inserted_lines">
+              <MetricValue>
+                <option name="count" value="100" />
+                <option name="sum" value="9.0" />
+              </MetricValue>
+            </entry>
+            <entry key="was_shown">
+              <MetricValue>
+                <option name="count" value="427" />
+                <distribution>
+                  <entry key="false" value="327" />
+                  <entry key="true" value="100" />
+                </distribution>
+              </MetricValue>
+            </entry>
+          </values>
+        </DateState>
+      </entry>
+    </dateToStats>
+  </component>
+</application>

@@ -1,0 +1,115 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry encoding="base64">dw==</entry>
+      </history-cmd>
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="rust-game-dba68474">
+      <jump line="0" column="0" filename="$USER_HOME$/github/rust-game/Cargo.toml" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/github/rust-game/Cargo.toml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="3" column="4" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="9" column="0" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="11" column="4" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="16" column="4" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="25" column="0" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="17" column="24" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="26" column="0" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="21" column="0" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="18" column="32" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="19" column="0" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="13" column="14" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="20" column="4" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+      <jump line="24" column="0" filename="$USER_HOME$/github/rust-game/src/main.rs" protocol="file" />
+    </project>
+    <project id="535vfo90t9hns608ur5n">
+      <jump line="0" column="0" filename="$USER_HOME$/github/rust-agent/Cargo.toml" protocol="file" />
+      <jump line="8" column="0" filename="$USER_HOME$/github/rust-agent/Cargo.toml" protocol="file" />
+      <jump line="9" column="16" filename="$USER_HOME$/github/rust-agent/Cargo.toml" protocol="file" />
+      <jump line="10" column="0" filename="$USER_HOME$/github/rust-agent/Cargo.toml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/github/rust-agent/src/main.rs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/github/rust-agent/.env" protocol="file" />
+      <jump line="27" column="20" filename="$USER_HOME$/github/rust-agent/.env" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/github/rust-agent/Cargo.toml" timestamp="1777925502289">
+        <mark key="'" line="10" column="0" />
+        <mark key="[" line="8" column="16" />
+        <mark key="]" line="9" column="17" />
+        <mark key="." line="9" column="16" />
+        <mark key="^" line="9" column="17" />
+      </file>
+      <file name="$USER_HOME$/github/rust-game/src/main.rs" timestamp="1767976829025">
+        <mark key="[" line="19" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="^" line="19" column="7" />
+        <mark key="." line="19" column="0" />
+      </file>
+      <file name="$USER_HOME$/github/rust-agent/src/main.rs" timestamp="1777925536131">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/github/rust-agent/.env" timestamp="1777925541773">
+        <mark key="'" line="27" column="20" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">Zm9ybWF0</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64">c2VyZGUgX2pzb24gPSAiIjEuMA==</text>
+      </register>
+      <register name="1" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="2" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="LINE_WISE">
+        <text encoding="base64">Zm10ISgiRG9lcyB7fSA9IHt9PyIsIGd1ZXNzLCBzdW0pCg==</text>
+      </register>
+      <register name="7" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="8" type="LINE_WISE">
+        <text encoding="base64">CiAgICBmbXQhKCJEb2VzIHt9ID0ge30/IiwgZ3Vlc3MsIHN1bSkK</text>
+      </register>
+      <register name="9" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name=":" type="CHARACTER_WISE">
+        <text encoding="base64">dw==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-offset encoding="base64" />
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

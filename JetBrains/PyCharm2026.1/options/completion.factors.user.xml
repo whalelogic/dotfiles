@@ -1,0 +1,115 @@
+<application>
+  <component name="ApplicationUserFactors">
+    <factor id="completionFinishedType">
+      <dailyData date="22-04-2026">
+        <observation name="cancelled" value="24.0" />
+        <observation name="explicitSelect" value="2.0" />
+        <observation name="typedSelect" value="17.0" />
+      </dailyData>
+      <dailyData date="24-04-2026">
+        <observation name="cancelled" value="457.0" />
+        <observation name="explicitSelect" value="3.0" />
+        <observation name="typedSelect" value="49.0" />
+      </dailyData>
+      <dailyData date="26-04-2026">
+        <observation name="cancelled" value="8.0" />
+        <observation name="typedSelect" value="3.0" />
+      </dailyData>
+      <dailyData date="29-04-2026">
+        <observation name="cancelled" value="3.0" />
+        <observation name="typedSelect" value="2.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionType">
+      <dailyData date="22-04-2026">
+        <observation name="BASIC" value="31.0" />
+      </dailyData>
+      <dailyData date="24-04-2026">
+        <observation name="BASIC" value="108.0" />
+      </dailyData>
+      <dailyData date="26-04-2026">
+        <observation name="BASIC" value="10.0" />
+      </dailyData>
+      <dailyData date="29-04-2026">
+        <observation name="BASIC" value="3.0" />
+      </dailyData>
+    </factor>
+    <factor id="completionUsage">
+      <dailyData date="22-04-2026">
+        <observation name="count" value="43.0" />
+      </dailyData>
+      <dailyData date="24-04-2026">
+        <observation name="count" value="509.0" />
+      </dailyData>
+      <dailyData date="26-04-2026">
+        <observation name="count" value="11.0" />
+      </dailyData>
+      <dailyData date="29-04-2026">
+        <observation name="count" value="5.0" />
+      </dailyData>
+    </factor>
+    <factor id="itemPosition">
+      <dailyData date="22-04-2026">
+        <observation name="0" value="2.0" />
+      </dailyData>
+      <dailyData date="24-04-2026">
+        <observation name="0" value="2.0" />
+        <observation name="40" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="mnemonicsUsage">
+      <dailyData date="22-04-2026">
+        <observation name="total" value="1.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+      <dailyData date="24-04-2026">
+        <observation name="total" value="1.0" />
+        <observation name="withMnemonics" value="0.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixLength">
+      <dailyData date="22-04-2026">
+        <observation name="1" value="1.0" />
+        <observation name="2" value="1.0" />
+      </dailyData>
+      <dailyData date="24-04-2026">
+        <observation name="0" value="2.0" />
+        <observation name="4" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="prefixMatchingType">
+      <dailyData date="22-04-2026">
+        <observation name="START_WITH" value="1.0" />
+      </dailyData>
+      <dailyData date="24-04-2026">
+        <observation name="START_WITH" value="1.0" />
+      </dailyData>
+    </factor>
+    <factor id="templatesUsage">
+      <dailyData date="22-04-2026">
+        <observation name="totalStartingWithPrefix" value="2.0" />
+      </dailyData>
+      <dailyData date="24-04-2026">
+        <observation name="totalStartingWithPrefix" value="3.0" />
+      </dailyData>
+    </factor>
+    <factor id="timeBetweenTyping">
+      <dailyData date="22-04-2026">
+        <observation name="average" value="149.270833" />
+        <observation name="count" value="48.0" />
+      </dailyData>
+      <dailyData date="24-04-2026">
+        <observation name="average" value="121.516854" />
+        <observation name="count" value="89.0" />
+      </dailyData>
+      <dailyData date="26-04-2026">
+        <observation name="average" value="153.0" />
+        <observation name="count" value="3.0" />
+      </dailyData>
+      <dailyData date="29-04-2026">
+        <observation name="average" value="321.6" />
+        <observation name="count" value="5.0" />
+      </dailyData>
+    </factor>
+  </component>
+</application>

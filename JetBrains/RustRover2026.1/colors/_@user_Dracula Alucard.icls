@@ -1,0 +1,71 @@
+<scheme name="_@user_Dracula Alucard" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="ide">Python</property>
+    <property name="ideVersion">2026.1.0.0</property>
+    <property name="originalScheme">Dracula Alucard</property>
+    <property name="partialSave">true</property>
+    <property name="pluginId">com.vermouthx.idea</property>
+  </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
+  <option name="EDITOR_LIGATURES" value="true" />
+  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
+  <colors>
+    <option name="CARET_COLOR" value="" />
+    <option name="CARET_ROW_COLOR" value="" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="" />
+    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="" />
+    <option name="ScrollBar.Mac.Transparent.thumbColor" value="" />
+    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="" />
+    <option name="ScrollBar.Mac.thumbBorderColor" value="" />
+    <option name="ScrollBar.Mac.thumbColor" value="" />
+    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="" />
+    <option name="ScrollBar.Transparent.thumbBorderColor" value="" />
+    <option name="ScrollBar.Transparent.thumbColor" value="" />
+    <option name="ScrollBar.hoverThumbBorderColor" value="" />
+    <option name="ScrollBar.hoverThumbColor" value="" />
+    <option name="ScrollBar.thumbBorderColor" value="" />
+    <option name="ScrollBar.thumbColor" value="" />
+  </colors>
+  <attributes>
+    <option name="BOOKMARKS_ATTRIBUTES">
+      <value />
+    </option>
+    <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
+      <value />
+    </option>
+    <option name="LIVE_TEMPLATE_ATTRIBUTES">
+      <value />
+    </option>
+    <option name="LOG_INFO_OUTPUT">
+      <value />
+    </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value />
+    </option>
+    <option name="MATCHED_TAG_NAME">
+      <value />
+    </option>
+    <option name="RUNTIME_ERROR">
+      <value />
+    </option>
+    <option name="SMART_COMPLETION_STATISTICAL_MATCHED_ITEM">
+      <value />
+    </option>
+    <option name="TEXT_STYLE_WARNING">
+      <value />
+    </option>
+    <option name="TODO_DEFAULT_ATTRIBUTES">
+      <value />
+    </option>
+    <option name="WARNING_ATTRIBUTES">
+      <value />
+    </option>
+  </attributes>
+</scheme>
