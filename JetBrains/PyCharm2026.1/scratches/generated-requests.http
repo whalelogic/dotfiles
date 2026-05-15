@@ -1,7 +1,0 @@
-###
-GET http://localhost:5000/
-
-<> 2026-04-22T120244.200.html
-
-###
-GET http://localhost:5000/?dish=Pizza

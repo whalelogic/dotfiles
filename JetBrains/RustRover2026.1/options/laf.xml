@@ -1,8 +1,0 @@
-<application>
-  <component name="LafManager">
-    <laf themeId="com.ayuislands.theme.mirage.islands" />
-    <lafs-to-previous-schemes>
-      <laf-to-scheme laf="Islands Dark" scheme="_@user_Ayu Islands Mirage" />
-    </lafs-to-previous-schemes>
-  </component>
-</application>

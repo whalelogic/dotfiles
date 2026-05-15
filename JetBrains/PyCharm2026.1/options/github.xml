@@ -1,7 +1,0 @@
-<application>
-  <component name="GithubAccounts">
-    <account name="whalelogic" id="ecae0ae0-a3a2-4271-896d-ba8dea25c241">
-      <server host="github.com" />
-    </account>
-  </component>
-</application>
