@@ -25,10 +25,6 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="muse"
 
-
-# Gemini API key 
-export GEMINI_API_KEY="AIzaSyCPQtx8sdxwmk7CU7MkPtUfVRqg6Jx5_dA"
-export GCP_KEY="AQ.Ab8RN6K5AitfWb5Rlk9X2V_tvMXUzaqdG2pWo_KHgAxQebPvtQ"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME="archcraft"
 # a theme from this variable instead of looking in $ZSH/themes/
