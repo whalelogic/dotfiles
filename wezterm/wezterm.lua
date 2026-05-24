@@ -13,13 +13,13 @@ end
 -- config.color_scheme = "Dracula"
 -- config.color_scheme = "Panda (Gogh)"
 -- config.color_scheme = "Adventure Time"
-config.color_scheme = "Ayu Mirage (Gogh)"
+config.color_scheme = "Tokyo Night Storm"
 config.force_reverse_video_cursor = true
 config.font = wezterm.font({
   family = "JetBrains Mono",
   weight = "Medium",
 })
-config.font_size = 10
+config.font_size = 11
 
 config.inactive_pane_hsb = {
   saturation = 0.9,
@@ -203,6 +203,12 @@ config.keys = {
   { key = '7', mods = 'CTRL', action = wezterm.action.ActivateTab(6) },
   { key = '8', mods = 'CTRL', action = wezterm.action.ActivateTab(7) },
   { key = '9', mods = 'CTRL', action = wezterm.action.ActivateTab(8) },
+  -- Resize panes with Ctrl+Shift+Arrow | Currently switches panes instead of resizing, but the keybindings are reserved for future use
+  -- { key = "LeftArrow",  mods = "CTRL|SHIFT", action = wezterm.action.AdjustPaneSize { "Left",  5 } },
+  -- { key = "RightArrow", mods = "CTRL|SHIFT", action = wezterm.action.AdjustPaneSize { "Right", 5 } },
+  -- { key = "UpArrow",    mods = "CTRL|SHIFT", action = wezterm.action.AdjustPaneSize { "Up",    5 } },
+  -- { key = "DownArrow",  mods = "CTRL|SHIFT", action = wezterm.action.AdjustPaneSize { "Down",  5 } },
+
 }
 
 return config

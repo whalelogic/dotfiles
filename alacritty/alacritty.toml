@@ -8,7 +8,7 @@
 padding = { x = 14, y = 14 }
 dynamic_padding = true
 decorations = "None"
-opacity = 0.94
+opacity = 0.98
 blur = true
 startup_mode = "Windowed"
 dynamic_title = true
@@ -31,7 +31,7 @@ multiplier = 3
 # --------------------------------------------------
 
 [font]
-size = 13.5
+size = 12
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
@@ -89,13 +89,13 @@ hide_when_typing = true
 animation = "EaseOutExpo"
 duration = 0
 color = "#ffffff"
-
-# --------------------------------------------------
-# TOKYO NIGHT COLORSCHEME
-# --------------------------------------------------
-
+#
+# # --------------------------------------------------
+# # TOKYO NIGHT COLORSCHEME
+# # --------------------------------------------------
+#
 [colors.primary]
-background = "#11121D"
+background = "#292b3d"
 foreground = "#C0CAF5"
 
 [colors.cursor]
@@ -158,6 +158,75 @@ magenta = "#BB9AF7"
 cyan    = "#7DCFFF"
 white   = "#C0CAF5"
 
+
+# --------------------------------------------------
+# DRACULA COLORSCHEME
+# --------------------------------------------------
+
+# [colors.primary]
+# background = "#282a36"
+# foreground = "#f8f8f2"
+#
+# [colors.cursor]
+# text = "#282a36"
+# cursor = "#f8f8f2"
+#
+# [colors.vi_mode_cursor]
+# text = "#282a36"
+# cursor = "#bd93f9"
+#
+# [colors.search.matches]
+# foreground = "#282a36"
+# background = "#ffb86c"
+#
+# [colors.search.focused_match]
+# foreground = "#282a36"
+# background = "#50fa7b"
+#
+# [colors.footer_bar]
+# foreground = "#f8f8f2"
+# background = "#44475a"
+#
+# [colors.hints.start]
+# foreground = "#282a36"
+# background = "#f1fa8c"
+#
+# [colors.hints.end]
+# foreground = "#f8f8f2"
+# background = "#44475a"
+#
+# [colors.selection]
+# text = "CellForeground"
+# background = "#44475a"
+#
+# # --------------------------------------------------
+# # NORMAL COLORS
+# # --------------------------------------------------
+#
+# [colors.normal]
+# black   = "#21222c"
+# red     = "#ff5555"
+# green   = "#50fa7b"
+# yellow  = "#f1fa8c"
+# blue    = "#bd93f9"
+# magenta = "#ff79c6"
+# cyan    = "#8be9fd"
+# white   = "#f8f8f2"
+#
+# # --------------------------------------------------
+# # BRIGHT COLORS
+# # --------------------------------------------------
+#
+# [colors.bright]
+# black   = "#6272a4"
+# red     = "#ff6e6e"
+# green   = "#69ff94"
+# yellow  = "#ffffa5"
+# blue    = "#d6acff"
+# magenta = "#ff92df"
+# cyan    = "#a4ffff"
+# white   = "#ffffff"
+#
 # --------------------------------------------------
 # KEYBINDINGS
 # --------------------------------------------------
@@ -193,3 +262,5 @@ program = "/bin/zsh"
 
 [env]
 TERM = "xterm-256color"
+
+
