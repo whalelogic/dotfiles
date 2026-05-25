@@ -8,12 +8,13 @@ add_newline = true
 disabled = true
 
 [character]
+# success_symbol = "[➜](bold #00FF7F) " 
 success_symbol = "[➜](bold #00FF7F) " 
 error_symbol = "[➜](bold red) "
 
 # Disable the package module, hiding it from the prompt completely
 [package]
-disabled = true
+disabled = false
 
 # 1. The core layout definition
 format = "$username$hostname $directory$git_branch$git_status$character "
@@ -31,7 +32,7 @@ style = "bold #00FF7F" # SpringGreen Hex
 
 [directory]
 format = "[$path]($style) "
-style = "bold #fc8c30"
+style = "bold #fc9830" 
 truncation_length = 0
 
 [git_branch]
@@ -56,4 +57,5 @@ disabled = true
 disabled = true
 [terraform]
 disabled = true
+
 

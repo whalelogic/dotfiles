@@ -4,9 +4,9 @@
 local M = {}
 
 M.base46 = {
-  theme = "zenburn",
+  theme = "radium",
   statusline = {
-    theme = "zenburn",
+    theme = "radium",
     separator_style = "block",
   },
 
