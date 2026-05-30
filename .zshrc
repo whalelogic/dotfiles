@@ -25,6 +25,7 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="muse"
 
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME="archcraft"
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -309,5 +310,15 @@ autoload -Uz compinit && compinit
 
 # ZSH Syntax Highlighting
 # source /home/whaler/repos/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=red,bold' # Invalid commands
+# Remove green color from valid commands and arguments
+ZSH_HIGHLIGHT_STYLES[arg0]='none'
+ZSH_HIGHLIGHT_STYLES[command]='none'
+# No underlining
+ZSH_HIGHLIGHT_STYLES[path]='none'
+
+
 export OLLAMA_API_BASE=http://localhost:11434
 export PATH="$HOME/.npm-global/bin:$PATH"
+eval "$(starship init zsh)"
