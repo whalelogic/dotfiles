@@ -1,77 +1,157 @@
 {
+  // ======================= Workbench / appearance =======================
+  "workbench.colorTheme": "Andromeda",
+  "editor.fontFamily": "Roboto Mono Nerd Font",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "Roboto Mono Nerd Font",
+  "editor.minimap.enabled": false,
+  "redhat.telemetry.enabled": false,
   "git.enableSmartCommit": true,
   "geminicodeassist.project": "confident-tendril-cxhhm",
-  "editor.minimap.enabled": false,
-  "workbench.colorTheme": "Andromeda",
-  "redhat.telemetry.enabled": false,
-  "editor.fontFamily": "Roboto Mono Nerd Font",
-  "terminal.integrated.fontFamily": "Roboto Mono Nerd Font",
-  "editor.fontLigatures": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "terminal.integrated.defaultProfile.linux": "bash",
 
-  // --- File Cleanliness & Formatting ---
+  // ======================= File cleanliness & formatting =======================
   "editor.formatOnSave": true,
   "editor.linkedEditing": true,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
+  "editor.inlayHints.enabled": "onUnlessPressed",
+  "editor.hover.delay": 200,
+  "editor.hover.sticky": true,
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
 
-  // --- Vim Extension Enhancements ---
+  // ======================= Vim =======================
+  "vim.leader": "<space>",
   "vim.useSystemClipboard": true,
   "vim.surround": true,
   "vim.easymotion": true,
   "vim.highlightedyank.enable": true,
-  "vim.leader": "<space>",
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.smartRelativeLine": true,
+
+  // true  = Vim gets the key
+  // false = VS Code gets the key
+  "vim.handleKeys": {
+    "<C-h>": true,
+    "<C-j>": true,
+    "<C-k>": true,
+    "<C-l>": true,
+    "<C-u>": false,
+    "<C-b>": false,
+    "<C-f>": false,
+    "<C-p>": false,
+    "<C-w>": false
+  },
+
+  // ---- insert mode: ctrl+hjkl move the cursor ----
   "vim.insertModeKeyBindings": [
     { "before": ["<C-h>"], "after": ["<Left>"] },
     { "before": ["<C-j>"], "after": ["<Down>"] },
     { "before": ["<C-k>"], "after": ["<Up>"] },
-    { "before": ["<C-l>"], "after": ["<Right>"] },
+    { "before": ["<C-l>"], "after": ["<Right>"] }
   ],
+
+  // ---- insert mode: jk escapes ----
   "vim.insertModeKeyBindingsNonRecursive": [
     { "before": ["j", "k"], "after": ["<Esc>"] },
-    { "before": [";", ";"], "after": [":", "="] },
+    { "before": [";", ";"], "after": [":", "="] }
   ],
+
+  // ---- normal mode: K for hover docs, plus LSP moves ----
   "vim.normalModeKeyBindingsNonRecursive": [
     { "before": ["j", "k"], "after": ["i"] },
+    { "before": ["K"], "commands": ["editor.action.showHover"] },
+    { "before": ["g", "c", "c"], "commands": ["editor.action.commentLine"] },
+    { "before": ["g", "d"], "commands": ["editor.action.revealDefinition"] },
+    { "before": ["g", "D"], "commands": ["editor.action.peekDefinition"] },
+    { "before": ["g", "i"], "commands": ["editor.action.goToImplementation"] },
+    { "before": ["g", "r"], "commands": ["editor.action.goToReferences"] },
+    { "before": ["[", "d"], "commands": ["editor.action.marker.prev"] },
+    { "before": ["]", "d"], "commands": ["editor.action.marker.next"] },
+    { "before": ["<leader>", "r", "n"], "commands": ["editor.action.rename"] },
+    { "before": ["<leader>", "c", "a"], "commands": ["editor.action.quickFix"] },
+    { "before": ["<leader>", "f", "f"], "commands": ["workbench.action.quickOpen"] },
+    { "before": ["<leader>", "f", "s"], "commands": ["workbench.action.findInFiles"] },
+    { "before": ["<leader>", "e"], "commands": ["workbench.view.explorer"] },
+    { "before": ["<leader>", "t", "t"], "commands": ["go.test.cursor"] },
+    { "before": ["<leader>", "t", "p"], "commands": ["go.test.package"] }
   ],
 
-  // --- Go Settings ---
-  "[go]": {
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": "always",
-    },
-  },
+  // ---- visual mode: keep selection when indenting ----
+  "vim.visualModeKeyBindingsNonRecursive": [
+    { "before": ["g", "c"], "commands": ["editor.action.commentLine"] },
+    { "before": ["g", "b"], "commands": ["editor.action.blockComment"] },
+    { "before": ["<"], "commands": ["editor.action.outdentLines"] },
+    { "before": [">"], "commands": ["editor.action.indentLines"] },
+    { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
+    { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] }
+  ],
+
+  // ======================= Go =======================
+  "go.useLanguageServer": true,
+  "go.toolsManagement.autoUpdate": true,
+  "go.lintTool": "golangci-lint",
+  "go.lintOnSave": "workspace",
+  "go.vetOnSave": "package",
+  "go.testFlags": ["-v"],
+  "go.testTimeout": "60s",
+  "go.coverOnSingleTest": true,
+  "go.gopath": "/go",
+  "go.toolsGopath": "/go",
+
   "gopls": {
     "ui.semanticTokens": true,
+    "ui.completion.usePlaceholders": true,
+    "ui.diagnostic.staticcheck": true,
+    "ui.diagnostic.analyses": {
+      "unusedparams": true,
+      "unusedwrite": true,
+      "nilness": true,
+      "shadow": true
+    },
+    "formatting.gofumpt": true
   },
 
-  // --- Python Settings ---
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "[go.mod]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true
+  },
+
+  // ======================= Python =======================
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "always",
-    },
+      "source.organizeImports": "always"
+    }
   },
 
-  // --- JavaScript & HTML Settings ---
+  // ======================= Web =======================
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
-  // --- Vue & Svelte Settings ---
   "[vue]": {
-    "editor.defaultFormatter": "Vue.volar",
+    "editor.defaultFormatter": "Vue.volar"
   },
   "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode",
+    "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   "emmet.includeLanguages": {
     "vue": "html",
-    "svelte": "html",
-  },
-  "remote.autoForwardPortsSource": "hybrid",
+    "svelte": "html"
+  }
 }
