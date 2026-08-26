@@ -1,0 +1,47 @@
+{
+  "name": "Go 1.26 + Vim",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "1.26",
+      "golangciLintVersion": "latest"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    },
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "vscodevim.vim",
+        "usernamehw.errorlens",
+        "ms-vscode.makefile-tools",
+        "tamasfe.even-better-toml",
+        "redhat.vscode-yaml",
+        "eamodio.gitlens",
+        "streetsidesoftware.code-spell-checker",
+
+        "EliverLara.andromeda",
+
+        "ms-python.python",
+        "charliermarsh.ruff",
+
+        "esbenp.prettier-vscode",
+        "Vue.volar",
+        "svelte.svelte-vscode",
+
+        "Google.geminicodeassist"
+      ]
+    }
+  },
+
+  "postCreateCommand": "bash .devcontainer/post-create.sh",
+  "remoteUser": "vscode"
+}
