@@ -30,6 +30,7 @@
   "vim.hlsearch": true,
   "vim.incsearch": true,
   "vim.smartRelativeLine": true,
+  "vim.commentary": true,
 
   // true  = Vim gets the key
   // false = VS Code gets the key
