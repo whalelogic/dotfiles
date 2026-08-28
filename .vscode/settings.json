@@ -1,0 +1,161 @@
+{
+  // ======================= Workbench / appearance =======================
+  "workbench.colorTheme": "Andromeda",
+  "editor.fontFamily": "Roboto Mono Nerd Font",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "Roboto Mono Nerd Font",
+  "editor.minimap.enabled": false,
+  "redhat.telemetry.enabled": false,
+  "git.enableSmartCommit": true,
+  "geminicodeassist.project": "confident-tendril-cxhhm",
+  "remote.autoForwardPortsSource": "hybrid",
+  "terminal.integrated.defaultProfile.linux": "bash",
+
+  // ======================= File cleanliness & formatting =======================
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.inlayHints.enabled": "onUnlessPressed",
+  "editor.hover.delay": 200,
+  "editor.hover.sticky": true,
+  "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+
+  // ======================= Vim =======================
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "vim.surround": true,
+  "vim.easymotion": true,
+  "vim.highlightedyank.enable": true,
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.smartRelativeLine": true,
+  "vim.commentary": true,
+
+  // true  = Vim gets the key
+  // false = VS Code gets the key
+  "vim.handleKeys": {
+    "<C-h>": true,
+    "<C-j>": true,
+    "<C-k>": true,
+    "<C-l>": true,
+    "<C-u>": false,
+    "<C-b>": false,
+    "<C-f>": false,
+    "<C-p>": false,
+    "<C-w>": false
+  },
+
+  // ---- insert mode: jk escapes, ctrl+hjkl move the cursor ----
+  // Using "after": ["<Esc>"] here, not "commands": ["extension.vim_escape"].
+  // The commands path is the suspected cause of j pausing/not falling
+  // through to plain cursor-down; after replays through Vim's own
+  // key processing, which is what worked originally. All insert-mode
+  // maps live in ONE list, splitting them across the recursive and
+  // non-recursive lists makes VSCodeVim drop some of them.
+  "vim.insertModeKeyBindingsNonRecursive": [
+    { "before": ["j", "k"], "after": ["<Esc>"] },
+    { "before": [";", ";"], "after": [":", "="] },
+    { "before": ["<C-h>"], "commands": ["cursorLeft"] },
+    { "before": ["<C-j>"], "commands": ["cursorDown"] },
+    { "before": ["<C-k>"], "commands": ["cursorUp"] },
+    { "before": ["<C-l>"], "commands": ["cursorRight"] }
+  ],
+
+  // ---- normal mode: K for hover docs, plus LSP moves ----
+  // No "j","k" -> "i" mapping here: that entry conflicted with the
+  // insert-mode jk-escape above and made plain "j" pause waiting for "k".
+  "vim.normalModeKeyBindingsNonRecursive": [
+    { "before": ["K"], "commands": ["editor.action.showHover"] },
+    { "before": ["g", "c", "c"], "commands": ["editor.action.commentLine"] },
+    { "before": ["g", "d"], "commands": ["editor.action.revealDefinition"] },
+    { "before": ["g", "D"], "commands": ["editor.action.peekDefinition"] },
+    { "before": ["g", "i"], "commands": ["editor.action.goToImplementation"] },
+    { "before": ["g", "r"], "commands": ["editor.action.goToReferences"] },
+    { "before": ["[", "d"], "commands": ["editor.action.marker.prev"] },
+    { "before": ["]", "d"], "commands": ["editor.action.marker.next"] },
+    { "before": ["<leader>", "r", "n"], "commands": ["editor.action.rename"] },
+    { "before": ["<leader>", "c", "a"], "commands": ["editor.action.quickFix"] },
+    { "before": ["<leader>", "f", "f"], "commands": ["workbench.action.quickOpen"] },
+    { "before": ["<leader>", "f", "s"], "commands": ["workbench.action.findInFiles"] },
+    { "before": ["<leader>", "e"], "commands": ["workbench.view.explorer"] },
+    { "before": ["<leader>", "t", "t"], "commands": ["go.test.cursor"] },
+    { "before": ["<leader>", "t", "p"], "commands": ["go.test.package"] }
+  ],
+
+  // ---- visual mode: keep selection when indenting ----
+  "vim.visualModeKeyBindingsNonRecursive": [
+    { "before": ["g", "c"], "commands": ["editor.action.commentLine"] },
+    { "before": ["g", "b"], "commands": ["editor.action.blockComment"] },
+    { "before": ["<"], "commands": ["editor.action.outdentLines"] },
+    { "before": [">"], "commands": ["editor.action.indentLines"] },
+    { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
+    { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] }
+  ],
+
+  // ======================= Go =======================
+  "go.useLanguageServer": true,
+  "go.toolsManagement.autoUpdate": true,
+  "go.lintTool": "golangci-lint",
+  "go.lintOnSave": "workspace",
+  "go.vetOnSave": "package",
+  "go.testFlags": ["-v"],
+  "go.testTimeout": "60s",
+  "go.coverOnSingleTest": true,
+  "go.gopath": "/go",
+  "go.toolsGopath": "/go",
+
+  "gopls": {
+    "ui.semanticTokens": true,
+    "ui.completion.usePlaceholders": true,
+    "ui.diagnostic.staticcheck": true,
+    "ui.diagnostic.analyses": {
+      "unusedparams": true,
+      "unusedwrite": true,
+      "nilness": true,
+      "shadow": true
+    },
+    "formatting.gofumpt": true
+  },
+
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "[go.mod]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true
+  },
+
+  // ======================= Python =======================
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+
+  // ======================= Web =======================
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "emmet.includeLanguages": {
+    "vue": "html",
+    "svelte": "html"
+  }
+}
