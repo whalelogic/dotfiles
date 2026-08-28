@@ -27,6 +27,20 @@ gitignore`.
     `vscode` settings.
 
 ## Usage
+Run the setup script from the repository root:
+
+```bash
+./setup.sh
+```
+
+For a preview without changing files:
+
+```bash
+./setup.sh --dry-run
+```
+
+In Codespaces, `setup.sh` automatically skips local-only configs (for example terminal emulator and macOS keybinding files).
+
 To use these dotfiles, you can clone this repository to your home directory and create symbolic links to the appropriate configuration files. For example, you can run the following commands in your terminal:
 
 ```bash
@@ -41,4 +55,3 @@ ln -s ~/dotfiles/.ideavimrc ~/.ideavimrc
 ln -s ~/dotfiles/.bash_profile ~/.bash_profile
 ln -s ~/dotfiles/.env ~/.env
 ```
-
